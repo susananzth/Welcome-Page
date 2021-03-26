@@ -60,7 +60,7 @@ Las herramientas que utilice para crear este proyecto
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (GNU General Public License v3.0) - mira el archivo [LICENSE.md](https://github.com/susananzth/Welcome-Page/blob/main/LICENSE.md) para detalles
+Este proyecto está bajo la Licencia (GNU General Public License v3.0) - mira el archivo [LICENSE.md](https://github.com/susananzth/Welcome-Page/blob/main/LICENSE) para detalles
 
 ## Expresiones de Gratitud 🎁
 
