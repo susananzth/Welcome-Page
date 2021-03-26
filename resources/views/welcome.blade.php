@@ -25,7 +25,6 @@
         <!-- Fuentes -->
         <script data-search-pseudo-elements defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.24.1/feather.min.js" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@300&family=Ubuntu+Mono&display=swap" rel="stylesheet">
         <!-- Estilos -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
         <link rel="stylesheet" href="{{ asset('css/myStyles.css') }}">
@@ -65,58 +64,58 @@
             </div>
             <!-- layoutFooter -->
             <div id="layoutFooter">
-                <footer class="footer">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <div class="footer-brand">Welcome Page</div>
+                <footer class="footer bg-dark text-light">
+                    <div class="container px-5">
+                        <div class="row py-10">
+                            <div class="col-lg-3 pb-5">
+                                <div class="fs-2 fw-bold pb-2">Welcome Page</div>
                                 <div class="mb-3">Multipurpose Welcome Website. With Bootstrap 5 and Laravel 8.12.</div>
                                 <div>
-                                    <a target="_blank" href="https://twitter.com/susananzth"><i class="fab fa-twitter"></i></a>
-                                    <a target="_blank" href="https://facebook.com/susananzth"><i class="fab fa-facebook-f"></i></a>
-                                    <a target="_blank" href="https://www.linkedin.com/in/susananzth/"><i class="fab fa-linkedin"></i></a>
-                                    <a target="_blank" href="https://github.com/susananzth"><i class="fab fa-github"></i></a>
-                                    <a target="_blank" href="https://gitlab.com/susananzth"><i class="fab fa-gitlab"></i></a>
+                                    <a class="text-decoration-none link-footer fs-3" target="_blank" href="https://twitter.com/susananzth"><i class="fab fa-twitter"></i></a>
+                                    <a class="text-decoration-none link-footer fs-3" target="_blank" href="https://facebook.com/susananzth"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="text-decoration-none link-footer fs-3" target="_blank" href="https://www.linkedin.com/in/susananzth/"><i class="fab fa-linkedin"></i></a>
+                                    <a class="text-decoration-none link-footer fs-3" target="_blank" href="https://github.com/susananzth"><i class="fab fa-github"></i></a>
+                                    <a class="text-decoration-none link-footer fs-3" target="_blank" href="https://gitlab.com/susananzth"><i class="fab fa-gitlab"></i></a>
                                 </div>
                             </div>
                             <div class="col-lg-9">
                                 <div class="row">
-                                    <div class="col-lg-4">
-                                        <div>Landings</div>
+                                    <div class="col-lg-4 pb-3">
+                                        <div class="fs-4 fw-bold pb-2">Landings</div>
                                         <ul class="list-unstyled">
-                                            <li class="mb-2"><a class="link-primary" href="javascript:void(0);">Multipurpose with Vue JS</a></li>
-                                            <li class="mb-2"><a href="javascript:void(0);">Multipurpose with Bootstrap 5</a></li>
-                                            <li class="mb-2"><a href="javascript:void(0);">Portfolio with Vue JS</a></li>
-                                            <li class="mb-2"><a href="javascript:void(0);">Portfolio with Vue JS + API</a></li>
-                                            <li><a href="javascript:void(0);">Portfolio with Bootstrap 5</a></li>
+                                            <li class="mb-2"><a class="text-decoration-none link-footer" target="_blank" href="javascript:void(0);">Multipurpose with Vue JS</a></li>
+                                            <li class="mb-2"><a class="text-decoration-none link-footer" target="_blank" href="javascript:void(0);">Multipurpose with Bootstrap 5</a></li>
+                                            <li class="mb-2"><a class="text-decoration-none link-footer" target="_blank" href="javascript:void(0);">Portfolio with Vue JS</a></li>
+                                            <li class="mb-2"><a class="text-decoration-none link-footer" target="_blank" href="javascript:void(0);">Portfolio with Vue JS + API</a></li>
+                                            <li><a class="text-decoration-none link-footer" target="_blank" href="javascript:void(0);">Portfolio with Bootstrap 5</a></li>
                                         </ul>
                                     </div>
-                                    <div class="col-lg-4">
-                                        <div>E-commerce</div>
+                                    <div class="col-lg-4 pb-3">
+                                        <div class="fs-4 fw-bold pb-2">E-commerce</div>
                                         <ul class="list-unstyled">
-                                            <li class="mb-2"><a href="javascript:void(0);">E-commerce - Laravel </a></li>
-                                            <li class="mb-2"><a href="javascript:void(0);">E-commerce - Node JS </a></li>
-                                            <li><a href="javascript:void(0);">UI Kit E-commerce - Bootstrap</a></li>
+                                            <li class="mb-2"><a class="text-decoration-none link-footer" target="_blank" href="javascript:void(0);">E-commerce - Laravel </a></li>
+                                            <li class="mb-2"><a class="text-decoration-none link-footer" target="_blank" href="javascript:void(0);">E-commerce - Node JS </a></li>
+                                            <li><a class="text-decoration-none link-footer" target="_blank" href="javascript:void(0);">UI Kit E-commerce - Bootstrap</a></li>
                                         </ul>
                                     </div>
-                                    <div class="col-lg-4">
-                                        <div>Other</div>
+                                    <div class="col-lg-4 pb-3">
+                                        <div class="fs-4 fw-bold pb-2">Other</div>
                                         <ul class="list-unstyled">
-                                            <li class="mb-2"><a href="javascript:void(0);">Ticket Support - Laravel</a></li>
-                                            <li class="mb-2"><a href="javascript:void(0);">Player - Vue JS</a></li>
-                                            <li><a href="javascript:void(0);">Updates</a></li>
+                                            <li class="mb-2"><a class="text-decoration-none link-footer" target="_blank" href="javascript:void(0);">Ticket Support - Laravel</a></li>
+                                            <li class="mb-2"><a class="text-decoration-none link-footer" target="_blank" href="javascript:void(0);">Player - Vue JS</a></li>
+                                            <li><a class="text-decoration-none link-footer" target="_blank" href="javascript:void(0);">Updates</a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <hr class="my-5" />
-                        <div class="row align-items-center">
+                        <hr/>
+                        <div class="row py-5">
                             <div class="col-md-6">Copyright &copy; Susana Piñero Rodríguez 2021</div>
-                            <div class="col-md-6 text-end">
-                                <a href="javascript:void(0);">Privacy Policy</a>
+                            <div class="col-md-6 text-md-right">
+                                <a class="text-decoration-none link-footer" target="_blank" href="javascript:void(0);">Privacy Policy</a>
                                 &middot;
-                                <a href="javascript:void(0);">Terms &amp; Conditions</a>
+                                <a class="text-decoration-none link-footer" target="_blank" href="javascript:void(0);">Terms &amp; Conditions</a>
                             </div>
                         </div>
                     </div>

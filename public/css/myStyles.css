@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*, body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+}
+.bg-dark{
+    background-color: #7d6970 !important;
+}
+.text-light{
+    color: #f7dbe5 !important;
+}
+@media (min-width: 768px){
+    .text-md-right {
+        text-align: right !important;
+    }
+}
+
+.py-10{
+    padding-bottom: 7rem;
+    padding-top: 7rem;
+}
+/* FOOTER */
+.link-footer{
+    color: #f7dbe5;
+}
+.link-footer:hover{
+    color: #fbbdd1;
+}
