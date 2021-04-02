@@ -55,11 +55,17 @@
                         <div class="container">
                         </div>
                     </section>
-                    <section id="section-5">
-                        <div class="container">
+                    <section id="section-5" class="bg-white">
+                        <div class="container py-10">
+                            <div class="row align-items-center text-center">
+                                <div class="">
+                                    <h4>Template available</h4>
+                                    <p class="lead mb-5 text-secondary">Are you interested in using it?</p>
+                                </div>
+                                <div class=""><a class="btn btn-primary rounded-pill mr-3 my-2" href="#!">Download it!</a></div>
+                            </div>
                         </div>
                     </section>
-                    <hr/>
                 </main>
             </div>
             <footer class="footer bg-dark text-light">

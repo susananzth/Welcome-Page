@@ -20,6 +20,25 @@
     }
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #ff6ea2;
+    border-color: #ef1d68;
+}
+.btn-primary:hover {
+    background-color: #ce4074;
+    border-color: #ef1d68;
+}
+.btn-primary:focus {
+    background-color: #ce4074;
+    border-color: #ef1d68;
+    box-shadow: 0 0 0 0.25rem rgb(251 208 223);
+}
+.btn-primary:active:focus {
+    background-color: #ce4074;
+    border-color: #ef1d68;
+    box-shadow: 0 0 0 0.25rem rgb(251 208 223);
+}
 .py-10{
     padding-bottom: 7rem;
     padding-top: 7rem;
