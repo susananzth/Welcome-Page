@@ -1,10 +1,12 @@
-
+/* ==== GENERAL ==== */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *, body{
+    color: inherit;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
+    text-decoration: none;
 }
 .bg-dark{
     background-color: #7d6970 !important;
@@ -22,7 +24,7 @@
     padding-bottom: 7rem;
     padding-top: 7rem;
 }
-/* FOOTER */
+/* ==== FOOTER ==== */
 .link-footer{
     color: #f7dbe5;
 }
